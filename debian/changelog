@@ -1,0 +1,72 @@
+airgeddon (7.23+foxxy0) testing; urgency=medium
+
+ * Fixed error in Docker container on some host O.S.
+ * Fixed error message on offline Arcadyan PIN algorithm calculation
+ * Polish language translation added (Thank you to "dodg3rmaq")
+ * Added "DoS pursuit mode" on DoS attacks (including DoS used on Evil Twin attacks) to avoid AP channel hopping
+ * Tested compatibility with Foxxy 3.9, BlackArch 2017.08.30 and Kali 2017.3
+
+ -- v1s1t0r <v1s1t0r.1s.h3r3@gmail.com>  Sat, 02 Dec 2017 01:47:34 +0200
+
+airgeddon (7.22+foxxy0) testing; urgency=medium
+
+  * import airgeddon 7.22
+  * Fixed error caused by Bettercap. Bug: https://github.com/evilsocket/bettercap/issues/356
+  * Arcadyan WPS PIN generation algorithm integrated
+  * Tested compatibility with Kali 2017.2 and Foxxy 3.8
+  * WPS Bully bruteforce attack modified to use --sequential (-S) argument
+  * Added WPS offline PIN generation and database menu option
+
+ -- v1s1t0r <v1s1t0r.1s.h3r3@gmail.com>  Sun, 22 Oct 2017 10:36:40 +0100
+
+airgeddon (7.21+foxxy0) testing; urgency=medium
+
+  * import airgeddon 7.21
+  * Italian language translation added (Thank you to "salu90")
+  * Tested compatibility with Foxxy 3.7, Fedora 26 and Wifislax 64-1.1
+  * Improved check for root permissions, now mandatory
+  * Fixed bug for some menu inputs using special chars. Now sanitized
+  * Code improvements, removed new shellcheck warnings
+  * Fixed bug launching BeEF Evil Twin attack twice
+
+ -- v1s1t0r <v1s1t0r.1s.h3r3@gmail.com>  Fri, 19 Sep 2017 19:56:40 +0800
+
+airgeddon (7.2+foxxy0) testing; urgency=medium
+
+  * import airgeddon 7.2
+  * Improved chipset detection
+  * New language and options menu
+  * Colorization, auto-update and startup language autodetection now can be enabled/disabled persistently from menu
+  * Language can be set permanently from menu even for next startup after an update
+  * New check using xset internal tool to check for a working X window system in order to avoid uncontrolled xterm errors
+
+ -- v1s1t0r <v1s1t0r.1s.h3r3@gmail.com>  Fri, 11 Aug 2017 16:06:40 +0400
+
+airgeddon (7.1.1+foxxy0) testing; urgency=medium
+
+  * import airgeddon 7.11
+  * Added hccapx support for hashcat 3.40 or higher
+  * Decrypted hashcat trophy files beautified
+  * Added confirm questions before attacks if no target selected
+  * WPA/WPA2 decrypted files using aircrack now have trophy file
+  * Some outputs colorized using ccze  * 
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Wed, 05 Jul 2017 13:00:10 +0200
+
+airgeddon (7.1+foxxy0) testing; urgency=medium
+
+  * New upstream release.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Mon, 12 Jun 2017 01:11:29 +0200
+
+airgeddon (7.02+foxxy1) testing; urgency=medium
+
+  * Fix dependency name.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Sun, 28 May 2017 21:51:34 +0200
+
+airgeddon (7.02+foxxy0) testing; urgency=low
+
+  * Initial release. 
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Sun, 28 May 2017 21:10:03 +0200

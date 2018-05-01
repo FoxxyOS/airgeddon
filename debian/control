@@ -1,0 +1,15 @@
+Source: airgeddon
+Section: security
+Priority: extra
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.8
+Homepage: https://dev.foxxysec.org/foxxy/airgeddon
+
+Package: airgeddon
+Architecture: all
+Multi-Arch: foreign
+Depends: net-tools, iw, aircrack-ng, wireless-tools, gawk, xterm, bash (>=4.2), ${misc:Depends}, ${shlibs:Depends}
+Recommends: crunch, mdk3, hashcat, hostapd, lighttpd, iptables, bettercap, beef-xss, ettercap-graphical, sslstrip, isc-dhcp-server, dsniff, reaver, bully, pixiewps, expect, curl, rfkill, wget, pciutils, usbutils, ethtool, x11-utils, ccze, x11-xserver-utils
+Description: a multi-use bash script to audit wireless networks
+ a multi-use bash script to audit wireless networks
